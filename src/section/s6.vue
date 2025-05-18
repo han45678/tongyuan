@@ -211,11 +211,11 @@ onBeforeUnmount(() => {
   background-repeat: no-repeat;
   background-position: top left;
 
-  padding-top: size-m(360);
+  padding-top: size-m(200);
   padding-left: size-m(0);
   padding-right: size-m(0);
   padding-bottom: size-m(10);
-  background-size: 100;
+  background-size: 100%;
 
   @media screen and (min-width: 768px) {
     padding-top: size(235);
@@ -256,9 +256,15 @@ onBeforeUnmount(() => {
       }
 
       svg {
-        margin-left: size(28);
-        margin-right: size(28);
-        width: size(120);
+        width: size-m(50);
+        margin-left: size-m(15);
+        margin-right: size-m(15);
+
+        @media screen and (min-width: 768px) {
+          margin-left: size(28);
+          margin-right: size(28);
+          width: size(120);
+        }
       }
     }
 
@@ -298,6 +304,7 @@ onBeforeUnmount(() => {
           margin-top: size-m(20);
           max-width: unset;
           width: 100%;
+
           @media screen and (min-width: 768px) {
             width: size(60);
             margin-top: size(20);
@@ -422,7 +429,7 @@ onBeforeUnmount(() => {
 
       @media screen and (min-width: 768px) {
         height: size(1);
-        bottom: size(122);
+        bottom: size(72.5);
       }
 
       .splide_btn {
@@ -446,11 +453,12 @@ onBeforeUnmount(() => {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - size-m(30));
-    max-width: size-m(820);
+
     margin-top: size-m(30);
 
     @media screen and (min-width: 768px) {
       width: 100%;
+      max-width: size(820);
       margin-top: size(60);
     }
   }

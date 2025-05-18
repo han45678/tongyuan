@@ -138,12 +138,12 @@
     // min-width: 680px;
 
     .contact-item {
-      background: #ffe3bb;
-      color: #444;
+      background: #5F1818;
+      color: #fff;
       width: 100%;
       flex: 1;
       padding: 1.1em 0;
-    border-radius: .5em;
+    // border-radius: .5em;
       font-size: size(16);
       font-weight: 700;
       line-height: 1.6;//3.8
@@ -169,13 +169,13 @@
         max-width: size(27);
         height: auto;
         max-height: size(27);
-        filter: brightness(0) invert(.4);
+        filter: brightness(0) invert(1);
         transition: all .5s;
         margin: 0;
       }
 
       &.address {
-        background-color: #ffea;
+        background-color: #fff;
         background-image: none;
         color: #000;
         z-index: 0;
@@ -204,6 +204,7 @@
 
 
       &.googlemap {
+        background-color: #DCA435;
         flex:1;
   //    background-color: #9B1E44;
       border-left-width: 0;
@@ -315,7 +316,7 @@
 
         &.address {
           font-size: size-m(15);
-          border-radius: .5em  .5em 0 0;
+          // border-radius: .5em  .5em 0 0;
           padding: 1.1em 0;
           margin: size-m(25) auto 0;
           //font-size: .9em;
@@ -329,7 +330,7 @@
         }
 
         &.address+div {
-          border-radius: 0 0 .5em .5em;
+          // border-radius: 0 0 .5em .5em;
         }
       &.googlemap {
         border-top-width: 0;
