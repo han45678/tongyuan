@@ -13,14 +13,18 @@
 
     <div class="text">
       <img class="title" src="@/section/s1/title.svg" alt="bg_decor" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="500">
+        data-aos-delay="600">
       <img class="ping" src="@/section/s1/ping.svg" alt="bg_decor" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="500">
+        data-aos-delay="700">
       <img class="textPic" src="@/section/s1/text.svg" alt="bg_decor" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="500">
+        data-aos-delay="800">
       <img class="s_logo" src="@/section/s1/s_logo.svg" alt="bg_decor" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="500">
+        data-aos-delay="900">
     </div>
+
+    <a class="reserve" href="#order">
+      <img src="@/section/s1/reserve.svg" alt="reserve">
+    </a>
   </article>
 </template>
 
@@ -30,17 +34,17 @@
 .s1 {
   background: #DB2718;
   width: 100%;
-  height: calc(100vh - 63px);
+  height: 100vh;
   max-height: size-m(750);
   position: relative;
   overflow: visible;
 
 
-  @media screen and (min-width: 768px) {
-    height: 100vh;
-    min-height: size(1080);
-    max-height: size(1080);
-  }
+  // @media screen and (min-width: 768px) {
+  //   height: 100vh;
+  //   min-height: size(1080);
+  //   max-height: size(1080);
+  // }
 
   .bg {
     width: 100%;
@@ -115,6 +119,27 @@
         margin-top: size(40);
         width: size(260);
       }
+    }
+  }
+
+  .reserve {
+    position: fixed;
+    z-index: 51;
+
+    @media screen and (min-width: 768px) {
+      right: size(15);
+      bottom: size(15);
+      width: size(150);
+      height: size(150);
+    }
+
+    right:size-m(5);
+    bottom: size-m(70);
+    width: size-m(75);
+    height: size-m(75);
+
+    img{
+      width: 100%;
     }
   }
 }

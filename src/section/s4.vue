@@ -36,17 +36,17 @@ onBeforeUnmount(() => {
   <article class="s4 relative" id="s4">
 
     <div class="text">
-      <h3 class="font-['Noto_Sans_TC'] text-[#fff]">極萃綠地</h3>
+      <h3 class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極萃綠地</h3>
 
-      <div class="light">
+      <div class="light"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img class="hidden md:block" src="@/section/s3/light.webp" />
         <img class="block md:hidden" src="@/section/s3/light_m.webp" />
       </div>
 
-      <h4 class="font-['Noto_Sans_TC'] text-[#fff]">呼吸純粹的自由，擁抱綠意的靜謐</h4>
+      <h4 class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">呼吸純粹的自由，擁抱綠意的靜謐</h4>
 
       <div style=""></div>
-      <p class="font-['Noto_Sans_TC'] text-[#fff]">
+      <p class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         新北大都會公園424公頃、相當於1.25倍紐約中央公園、16座大安森林公園，水漾路前公園、集美商圈內玫瑰公園。讓孩子跑跳，樂活在陽光與綠地之間。
       </p>
     </div>

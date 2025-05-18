@@ -171,15 +171,15 @@ onBeforeUnmount(() => {
           </div>
         </div>
         <div class="text">
-          <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]">極美機能</h2>
-          <h3 class="font-['Noto_Sans_TC'] text-[#000]">繁華環繞，便利盡在咫尺，收集美好生活</h3>
+          <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極美機能</h2>
+          <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">繁華環繞，便利盡在咫尺，收集美好生活</h3>
           <div class="text_content">
-            <div class="text_content_item">
+            <div class="text_content_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               <div class="label"><span class="font-['Noto_Sans_TC'] text-[#fff]">集美生活圈</span></div>
               <p class="font-['Noto_Sans_TC'] text-[#000]">
                 集美街商業機能發達，連鎖商家、餐廳均有，採買可到全聯、環河南路傳統早市，聯上廣場內全國電子、特力屋、迪卡儂等賣場，豐富機能，5分鐘滿足採買需求。</p>
             </div>
-            <div class="text_content_item">
+            <div class="text_content_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               <div class="label"><span class="font-['Noto_Sans_TC'] text-[#fff]">CITY LINK<br>時尚購物商場</span></div>
               <p class="font-['Noto_Sans_TC'] text-[#000]">
                 新北地標級大型百貨，完美結合多元生活與時尚潮流。主題餐廳匯聚美食饗宴，國際名品彰顯品味格調，無論是精品購物、親子時光，還是悠閒慢活，一站滿足。</p>
@@ -299,11 +299,10 @@ onBeforeUnmount(() => {
         </div>
         <div class="text">
 
-          <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]">極致學區</h2>
-          <h3 class="font-['Noto_Sans_TC'] text-[#000]">一步雙語名校，菁英教育國際接軌</h3>
-          <p class="font-['Noto_Sans_TC'] text-[#000]">
+          <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極致學區</h2>
+          <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">一步雙語名校，菁英教育國際接軌</h3>
+          <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             書香繚繞，名校為鄰。近享集美雙語國小與三重高中，十二年國教完美銜接，學子從容踏步未來。外語教育培養國際人才，步行可及的安心與便利，讓父母的期盼與學子的夢想，極致展開。</p>
-
         </div>
       </div>
     </div>

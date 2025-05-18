@@ -20,8 +20,30 @@ function selectSlide(index) {
   splideRef3.value?.go(index) // 切換到指定 slide
 }
 
+const pic = ref(null)
+const ball_svg = ref(null)
+const line = ref(null);
 
+function updateLinePosition() {
+  if (
+    window.innerWidth >= 786 &&
+    pic.value &&
+    ball_svg.value &&
+    line.value
+  ) {
+    const container = pic.value;
+    const ball = ball_svg.value;
+    const ballRect = ball.getBoundingClientRect();
+    const middleOfBall = ball.offsetTop + ballRect.height / 2;
+    const distanceFromBottom = container.offsetHeight - middleOfBall;
+
+    line.value.style.bottom = `${distanceFromBottom}px`;
+    line.value.style.top = ''; // 清除 top
+  }
+}
 onMounted(() => {
+  updateLinePosition();
+
   if (splideRef3.value) {
     splideRef3.value.splide.on('moved', () => {
       no3.value = splideRef3.value?.splide.index;
@@ -39,8 +61,8 @@ onBeforeUnmount(() => {
 
 <template>
   <article class="s6 relative" id="s6">
-    <div class="title">
-      <h3>
+    <div class="title" >
+      <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <span class="font-['Noto_Serif_TC'] text-[#fff]">樸實真摯 雋永極美</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="119" height="49" viewBox="0 0 119 49" fill="none">
           <path
@@ -52,13 +74,13 @@ onBeforeUnmount(() => {
         </svg>
         <span class="font-['Noto_Serif_TC'] text-[#fff]">統揚機構．統元建設</span>
       </h3>
-      <p class="font-['Noto_Sans_TC'] text-[#fff]">
+      <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         統元建設為統揚機構旗下子企業，近30年建設經驗，作品遍佈雙北。秉持「穩健踏實，真誠處事」的核心精神，<br>
         在建築設計上，堅守「細節至上，品質為先」的專業態度，匠心為客戶打造安心的溫馨家園。
       </p>
     </div>
 
-    <div class="pic">
+    <div class="pic" ref="pic">
       <Splide ref="splideRef3" :options="{
         type: 'slide',
         autoplay: false,
@@ -84,7 +106,7 @@ onBeforeUnmount(() => {
             <div class="item_pic"><img src="@/section/s6/2006.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2024</div>
-              <div class="ball">
+              <div ref="ball_svg" class="ball">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                   <circle cx="8.5" cy="8.5" r="8.5" fill="#DCA435" />
                 </svg>
@@ -183,7 +205,7 @@ onBeforeUnmount(() => {
         </SplideSlide>
       </Splide>
 
-      <div class="line">
+      <div class="line" ref="line">
         <div class="splide_btn prev" @click="goPrev3">
           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none">
             <path d="M8 1L1 7.81081L8 15" stroke="#DCA435" stroke-linecap="round" />
