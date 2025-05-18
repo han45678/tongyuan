@@ -82,9 +82,13 @@ onBeforeUnmount(() => {
 <template>
   <article class="s3 relative" id="s3">
 
-    <div class="weapper">
+    <div class="wrapper">
       <div class="title font-['Noto_Sans_TC'] text-[#fff]">
-        西區門戶 國門首席 璀璨時代 極刻啟程
+        <span class="hidden md:block">西區門戶 國門首席 璀璨時代 極刻啟程</span>
+        <span class="block md:hidden">
+          西區門戶 國門首席<br>
+          璀璨時代 極刻啟程
+        </span>
       </div>
       <div class="content">
         <div class="item">
@@ -141,7 +145,7 @@ onBeforeUnmount(() => {
               </SplideSlide>
             </Splide>
 
-            <div class="_btn_">
+            <div class="_btn_ hidden md:block">
               <div class="splide_btn prev" @click="goPrev1">
                 <img src="@/section/s3/prev.svg" alt="prev">
               </div>
@@ -149,9 +153,60 @@ onBeforeUnmount(() => {
                 <img src="@/section/s3/next.svg" alt="next">
               </div>
             </div>
+
+            <div class="prev_btn block md:hidden" @click="goPrev1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+                <g filter="url(#filter0_d_61_350)">
+                  <rect x="27" y="26" width="26" height="26" rx="13" transform="rotate(-180 27 26)" fill="black"
+                    fill-opacity="0.44" shape-rendering="crispEdges" />
+                </g>
+                <path d="M17 20L10 13.1892L17 6" stroke="white" stroke-linecap="round" />
+                <defs>
+                  <filter id="filter0_d_61_350" x="-3" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_350" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_350" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
+            <div class="next_btn block md:hidden" @click="goNext1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34" fill="none">
+                <g filter="url(#filter0_d_61_347)">
+                  <rect x="4" width="26" height="26" rx="13" fill="black" fill-opacity="0.44"
+                    shape-rendering="crispEdges" />
+                </g>
+                <path d="M14 6L21 12.8108L14 20" stroke="white" stroke-linecap="round" />
+                <defs>
+                  <filter id="filter0_d_61_347" x="0" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_347" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_347" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
           </div>
           <div class="text">
-            <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]">GATEGATEWAY TO THE NATION</h3>
+            <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]">
+              <span class="hidden md:block">GATEGATEWAY TO THE NATION</span>
+              <img class="block md:hidden" src="@/section/s3/title01.svg" alt="title">
+            </h3>
             <h4 class="font-['Noto_Sans_TC'] text-[#fff]">六鐵共構  台北中央車站</h4>
             <p class="font-['Noto_Sans_TC'] text-[#fff]">
               台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>
@@ -161,6 +216,7 @@ onBeforeUnmount(() => {
           </div>
 
         </div>
+
         <div class="item">
 
           <div class="pic">
@@ -223,7 +279,7 @@ onBeforeUnmount(() => {
               </SplideSlide>
             </Splide>
 
-            <div class="_btn_">
+            <div class="_btn_ hidden md:block">
               <div class="splide_btn prev" @click="goPrev2">
                 <img src="@/section/s3/prev.svg" alt="prev">
               </div>
@@ -231,9 +287,62 @@ onBeforeUnmount(() => {
                 <img src="@/section/s3/next.svg" alt="next">
               </div>
             </div>
+
+            <div class="prev_btn block md:hidden" @click="goPrev2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+                <g filter="url(#filter0_d_61_350)">
+                  <rect x="27" y="26" width="26" height="26" rx="13" transform="rotate(-180 27 26)" fill="black"
+                    fill-opacity="0.44" shape-rendering="crispEdges" />
+                </g>
+                <path d="M17 20L10 13.1892L17 6" stroke="white" stroke-linecap="round" />
+                <defs>
+                  <filter id="filter0_d_61_350" x="-3" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_350" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_350" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
+            <div class="next_btn block md:hidden" @click="goNext2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34" fill="none">
+                <g filter="url(#filter0_d_61_347)">
+                  <rect x="4" width="26" height="26" rx="13" fill="black" fill-opacity="0.44"
+                    shape-rendering="crispEdges" />
+                </g>
+                <path d="M14 6L21 12.8108L14 20" stroke="white" stroke-linecap="round" />
+                <defs>
+                  <filter id="filter0_d_61_347" x="0" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_347" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_347" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
           </div>
           <div class="text">
-            <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]">DRAWS GLOBAL ATTENTION</h3>
+            <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]">
+              <span class="hidden md:block">DRAWS GLOBAL ATTENTION</span>
+              <img class="block md:hidden" src="@/section/s3/title02.svg" alt="title">
+            </h3>
+
             <h4 class="font-['Noto_Sans_TC'] text-[#fff]">首都璀璨  台北雙子星</h4>
             <p class="font-['Noto_Sans_TC'] text-[#fff]">
               西區即刻顛覆，東軸西轉，台北雙子星大樓，挹注建設金額達606億，<br>
@@ -244,30 +353,48 @@ onBeforeUnmount(() => {
         </div>
       </div>
 
-      <img src="@/section/s3/MRT.webp" alt="MRT">
+      <div class="mrt">
+        <img class="base" src="@/section/s3/MRT.png" />
+        <img class="blend" src="@/section/s3/MRT_m.png" />
+      </div>
 
       <div class="content_b">
-        <div class="item">
 
-          <div class="text">
-            <h3 class="font-['Noto_Sans_TC'] text-[#fff]">極速交通</h3>
-            <h4 class="font-['Noto_Sans_TC'] text-[#fff]">A2機捷三重站 新蘆線三重站雙捷匯聚</h4>
-            <p class="font-['Noto_Sans_TC'] text-[#fff]">
-              1站直達台北車站，快速接軌高鐵與全台捷運網絡，通勤無憂。一線直通桃園國際機場，隨時啟程，連結世界零時差。便捷交通，讓繁華與國際盡在轉瞬之間！
-            </p>
+        <div class="text">
+          <h3 class="font-['Noto_Sans_TC'] text-[#fff]">極速交通</h3>
+
+          <div class="light">
+            <img class="hidden md:block" src="@/section/s3/light.webp" />
+            <img class="block md:hidden" src="@/section/s3/light_m.webp" />
           </div>
 
+          <h4 class="font-['Noto_Sans_TC'] text-[#fff]">A2機捷三重站 ╳ 新蘆線三重站雙捷匯聚</h4>
+
+          <div style=""></div>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">
+            1站直達台北車站，快速接軌高鐵與全台捷運網絡，通勤無憂。一線直通桃園國際機場，<br>
+            隨時啟程，連結世界零時差。便捷交通，讓繁華與國際盡在轉瞬之間！
+          </p>
+        </div>
+
+        <div class="pic">
           <Splide ref="splideRef3" :options="{
-            type: 'slide',       // 使用 slide 模式而非 fade
-            autoplay: true,     // 不自動播放
-            interval: 5000,      // 可省略，因為 autoplay 是 false
+            type: 'loop',
+            autoplay: true,
+            interval: 5000,
             speed: 1000,         // 切換速度
             arrows: false,        // 顯示左右箭頭 ✅
             pagination: false,    // 顯示下方小點 ✅
             drag: true,          // 可拖曳
             perPage: 3,          // 每頁一張
             rewind: true,         // 可循環播放
-            gap: '15px'
+            gap: '15px',
+            breakpoints: {
+              768: {
+                autoWidth: true,
+                focus: 'center',
+              }
+            }
           }">
             <SplideSlide class="slide">
               <div class="slide_item">
@@ -324,12 +451,17 @@ onBeforeUnmount(() => {
               <img src="@/section/s3/next.svg" alt="next">
             </div>
           </div>
-
         </div>
+
       </div>
     </div>
-    <img class="bg_decor1" src="@/section/s3/bg_decor1.webp" alt="pic">
-    <img class="bg_decor2" src="@/section/s3/bg_decor2.webp" alt="pic">
+
+    <img class="bg_decor1 hidden md:block" src="@/section/s3/bg_decor1.webp" alt="pic">
+    <img class="bg_decor1 block md:hidden" src="@/section/s3/bg_decor1m.webp" alt="pic">
+
+    <img class="bg_decor2 hidden md:block" src="@/section/s3/bg_decor2.webp" alt="pic">
+    <img class="bg_decor2 block md:hidden" src="@/section/s3/bg_decor2m.webp" alt="pic">
+
   </article>
 </template>
 
@@ -341,32 +473,62 @@ onBeforeUnmount(() => {
   position: relative;
   box-sizing: border-box;
 
-  .weapper {
-    padding-top: size(150);
+  .wrapper {
+    padding-top: size-m(50);
+    padding-bottom: size-m(50);
     position: relative;
     z-index: 1;
 
+    @media screen and (min-width: 768px) {
+      padding-top: size(150);
+      padding-bottom: size(50);
+    }
+
     .title {
-      font-size: size(36);
-      padding-bottom: size(65);
       font-weight: 500;
       text-align: center;
+      font-size: size-m(25);
+      padding-bottom: size-m(40);
+      line-height: 1.5;
+
+      @media screen and (min-width: 768px) {
+        font-size: size(36);
+        padding-bottom: size(65);
+        line-height: unset
+      }
     }
 
     .content {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      max-width: size(1580);
+      max-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      padding-left: size-m(30);
+      padding-right: size-m(30);
+
+      @media screen and (min-width: 768px) {
+        max-width: size(1580);
+        padding-left: 0;
+        padding-right: 0;
+      }
 
       .item {
         display: flex;
         flex-wrap: wrap;
 
+        @media screen and (max-width: 767px) {
+          margin-bottom: size-m(50);
+        }
+
         .pic {
           width: 100%;
+          position: relative;
+
+          @media screen and (max-width: 767px) {
+            order: 1 !important;
+          }
 
           .slide_item {
             .item_pic {
@@ -378,48 +540,84 @@ onBeforeUnmount(() => {
 
               span {
                 position: absolute;
-                bottom: size(15);
-                left: size(10);
+                bottom: size-m(7.5);
+                right: size-m(5);
+
+                text-shadow: 0px 4px 4px #000;
+                font-size: size-m(12);
+                font-weight: 500;
+
+                @media screen and (min-width: 768px) {
+                  font-size: size(12);
+                  bottom: size(15);
+                  right: unset;
+                  left: size(10);
+                }
               }
 
 
             }
           }
 
-          ._btn_ {
-            margin-top: size(10);
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.44);
-            width: size(72);
-            height: size(22);
-            border-radius: size(14);
-            position: relative;
-
-            &::before {
-              content: "";
-              width: size(16);
-              height: 1px;
-              background-color: #fff;
-              transform: rotate(119.74deg);
-              position: absolute;
-              left: 0;
-              right: 0;
-              top: 0;
-              bottom: 0;
-              margin: auto;
-            }
-
-            .splide_btn {
+          @media screen and (min-width: 768px) {
+            ._btn_ {
+              margin-top: size(10);
               display: flex;
-              justify-content: center;
+              justify-content: space-around;
               align-items: center;
-              cursor: pointer;
-              img {
-                width: size(7);
+              background-color: rgba(0, 0, 0, 0.44);
+              width: size(72);
+              height: size(22);
+              border-radius: size(14);
+              position: relative;
+
+              &::before {
+                content: "";
+                width: size(16);
+                height: 1px;
+                background-color: #fff;
+                transform: rotate(119.74deg);
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+              }
+
+              .splide_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                img {
+                  width: size(7);
+                }
               }
             }
+          }
+
+          .prev_btn,
+          .next_btn {
+            width: size-m(26);
+            height: size-m(26);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            svg {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .prev_btn {
+            left: size-m(-26);
+          }
+
+          .next_btn {
+            right: size-m(-26);
           }
         }
 
@@ -428,56 +626,105 @@ onBeforeUnmount(() => {
           display: flex;
           flex-wrap: wrap;
 
+          @media screen and (max-width: 767px) {
+            order: 2 !important;
+          }
+
           h3 {
-            font-size: size(20);
-            font-weight: 100;
-            letter-spacing: 0.87em;
+            font-weight: 300;
             width: 100%;
             order: 1;
+            font-size: size-m(12);
+            letter-spacing: size-m(7.5);
+            margin-top: size-m(15);
+            margin-bottom: size-m(10);
+
+            img {
+              width: 100%;
+            }
+
+            @media screen and (max-width: 767px) {
+              order: 1 !important;
+            }
+
+            @media screen and (min-width: 768px) {
+              font-size: size(20);
+              letter-spacing: 0.87em;
+              margin-top: 0;
+              margin-bottom: 0;
+            }
           }
 
           h4 {
-            font-size: size(20);
             font-weight: 800;
             width: 100%;
             order: 2;
+            margin-bottom: size-m(10);
+
+            @media screen and (max-width: 767px) {
+              order: 2 !important;
+            }
+
+            @media screen and (min-width: 768px) {
+              font-size: size(20);
+              margin-bottom: 0;
+            }
           }
 
           p {
-            font-size: size(15);
             font-weight: 400;
             width: 100%;
             order: 3;
+
+            @media screen and (max-width: 767px) {
+              order: 3 !important;
+
+              br {
+                display: none;
+              }
+            }
+
+            @media screen and (min-width: 768px) {
+              font-size: size(15);
+            }
           }
         }
-
-
 
         &:nth-child(1),
         &:nth-child(2) {
-          width: calc(50% - size(7.5));
+          width: 100%;
+
+          @media screen and (min-width: 768px) {
+            width: calc(50% - size(7.5));
+          }
         }
 
         &:nth-child(1) {
-          margin-right: size(15);
-          .pic{
-            ._btn_ {
-
-            }
+          @media screen and (min-width: 768px) {
+            margin-right: size(15);
           }
+
           .text {
-            padding-left: size(60);
+            @media screen and (min-width: 768px) {
+              padding-left: size(60);
+            }
 
             h4 {
               order: 1;
-              margin-bottom: size(10);
-              padding-left: size(100);
+
+              @media screen and (min-width: 768px) {
+                margin-bottom: size(10);
+                padding-left: size(100);
+              }
             }
 
             p {
               order: 2;
-              margin-bottom: size(35);
-              padding-left: size(100);
+
+              @media screen and (min-width: 768px) {
+                margin-bottom: size(35);
+                padding-left: size(100);
+              }
             }
 
             h3 {
@@ -491,6 +738,7 @@ onBeforeUnmount(() => {
         &:nth-child(2) {
           .pic {
             order: 2;
+
             ._btn_ {
               margin-left: auto;
             }
@@ -503,42 +751,233 @@ onBeforeUnmount(() => {
         }
 
       }
+
+    }
+
+    .mrt {
+      position: relative;
+      overflow: hidden;
+      width: size-m(465);
+      height: size-m(95);
+      transform: translateX(-50%);
+
+      @media screen and (min-width: 768px) {
+        width: size(1299);
+        height: size(263);
+        transform: translateX(0);
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .blend {
+        mix-blend-mode: lighten;
+        mix-blend-mode: lighten;
+        opacity: 0.9;
+        filter: opacity(0.5);
+      }
     }
 
     .content_b {
       width: 100%;
-      max-width: size(1580);
       margin-left: auto;
       margin-right: auto;
+      max-width: 100%;
+      margin-top: size-m(25);
 
-      .slide_item {
-        .item_pic {
-          position: relative;
+      @media screen and (min-width: 768px) {
+        max-width: size(1580);
+        margin-top: 0;
+      }
+
+      .text {
+        padding-left: size-m(30);
+        padding-right: size-m(30);
+
+        @media screen and (min-width: 768px) {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        h3 {
+          text-align: center;
+          font-weight: 700;
+          font-size: size-m(25);
+          letter-spacing: size-m(2.5);
+          margin-bottom: size-m(5);
+
+          @media screen and (min-width: 768px) {
+            font-size: size(60);
+            letter-spacing: size(6);
+            margin-bottom: size(15);
+          }
+        }
+
+        .light {
+          text-align: center;
+          width: calc(100% + size-m(60));
+          margin-left: size-m(-30);
+          margin-right: size-m(-30);
+
+          @media screen and (min-width: 768px) {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+          }
 
           img {
             width: 100%;
+
+            @media screen and (min-width: 768px) {
+              max-width: size(1000);
+            }
+          }
+        }
+
+        h4 {
+          text-align: center;
+          font-weight: 500;
+          font-size: size-m(17);
+          margin-top: size-m(10);
+          margin-bottom: size-m(10);
+
+          @media screen and (min-width: 768px) {
+            margin-top: size(5);
+            margin-bottom: size(20);
+            font-size: size(36);
+          }
+        }
+
+
+
+        p {
+          text-align: center;
+          font-weight: 400;
+          font-size: size-m(13);
+          line-height: 1.7;
+          margin-bottom: size-m(35);
+
+          br {
+            display: none;
           }
 
-          span {
-            position: absolute;
-            bottom: size(15);
-            left: size(10);
+          @media screen and (min-width: 768px) {
+            font-size: size(15);
+            margin-bottom: size(75);
+
+            br {
+              display: block;
+            }
           }
         }
       }
+
+      .pic {
+        .slide_item {
+          @media screen and (max-width: 767px) {
+            width: size-m(217);
+          }
+          .item_pic {
+            position: relative;
+
+            img {
+              width: 100%;
+            }
+
+            span {
+              position: absolute;
+              bottom: size(15);
+              right: size(10);
+            }
+          }
+        }
+
+        ._btn_ {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: size-m(15);
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.44);
+          width: size-m(72);
+          height: size-m(22);
+          border-radius: size-m(14);
+          position: relative;
+
+          @media screen and (min-width: 768px) {
+            width: size(72);
+            height: size(22);
+            border-radius: size(14);
+            margin-top: size(10);
+          }
+
+          &::before {
+            content: "";
+            width: size-m(16);
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(119.74deg);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+            @media screen and (min-width: 768px) {
+              width: size(16);
+            }
+          }
+
+          .splide_btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+              width: size-m(7);
+
+              @media screen and (min-width: 768px) {
+                width: size(7);
+              }
+            }
+          }
+        }
+      }
+
     }
   }
 
   .bg_decor1 {
     position: absolute;
     left: 0;
-    top: size(-400);
+    top: size-m(-100);
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      top: size(-400);
+      width: auto;
+    }
   }
 
   .bg_decor2 {
     position: absolute;
     right: 0;
-    top: size(700);
+    top: size-m(700);
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      top: size(700);
+      width: auto;
+    }
   }
 }
 </style>

@@ -1,3 +1,33 @@
+<script setup>
+import info from "@/info"
+// import S2v from "@/section/s2v.vue"
+// import S11 from "@/section/s11.vue"
+
+import S1 from "@/section/s1.vue"
+import S2 from "@/section/s2.vue"
+import S3 from "@/section/s3.vue"
+import S4 from "@/section/s4.vue"
+import S5 from "@/section/s5.vue"
+import S6 from "@/section/s6.vue"
+import Order from "@/section/order.vue"
+import { onMounted, ref } from "vue"
+
+import AOS from 'aos';
+
+const isLoading = ref(true)
+const gtmNoScript = ref('')
+onMounted(() => {
+  window.onload = function () {
+    isLoading.value = false
+    AOS.init({
+      offset: 0,
+      duration: 2000
+    });
+  };
+
+})
+</script>
+
 <template>
   <div ref="gtmNoScript" />
   <!--loading-->
@@ -18,6 +48,9 @@
     <S1 />
     <S2 />
     <S3 />
+    <S4 />
+    <S5 />
+    <S6 />
     <!--
     <S1new />
     <S1new2 /> -->
@@ -82,29 +115,4 @@ img {
   */
 </style>
 
-<script setup>
-import info from "@/info"
-// import S2v from "@/section/s2v.vue"
-// import S11 from "@/section/s11.vue"
 
-import S1 from "@/section/s1.vue"
-import S2 from "@/section/s2.vue"
-import S3 from "@/section/s3.vue"
-import Order from "@/section/order.vue"
-import { onMounted, ref } from "vue"
-
-import AOS from 'aos';
-
-const isLoading = ref(true)
-const gtmNoScript = ref('')
-onMounted(() => {
-  window.onload = function () {
-    isLoading.value = false
-    AOS.init({
-      offset: 0,
-      duration: 2000
-    });
-  };
-
-})
-</script>

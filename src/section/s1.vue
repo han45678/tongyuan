@@ -29,8 +29,6 @@
 
 .s1 {
   background: #DB2718;
-  // background: #C7000B url(./s1/bg.webp) no-repeat center center;
-  // background-size: cover;
   width: 100%;
   height: calc(100vh - 63px);
   max-height: size-m(750);
