@@ -209,9 +209,7 @@ onBeforeUnmount(() => {
             </h3>
             <h4 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">六鐵共構  台北中央車站</h4>
             <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-              台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>
-              五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>
-              國家門戶之首，西區崛起。
+              台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>國家門戶之首，西區崛起。
             </p>
           </div>
 
@@ -337,7 +335,7 @@ onBeforeUnmount(() => {
             </div>
 
           </div>
-          <div class="text">
+          <div class="text right">
             <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               <span class="hidden md:block">DRAWS GLOBAL ATTENTION</span>
               <img class="block md:hidden" src="@/section/s3/title02.svg" alt="title">
@@ -356,6 +354,7 @@ onBeforeUnmount(() => {
       <div class="mrt"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
         <img class="base" src="@/section/s3/MRT.png" />
         <img class="blend" src="@/section/s3/MRT_m.png" />
+        
       </div>
 
       <div class="content_b">
@@ -398,7 +397,7 @@ onBeforeUnmount(() => {
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic00.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">總統府</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">台北車站(台灣高鐵)示意圖</span>
                 </div>
 
               </div>
@@ -406,7 +405,7 @@ onBeforeUnmount(() => {
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic01.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">台大醫院</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">捷運三重站實景圖</span>
                 </div>
 
               </div>
@@ -414,7 +413,7 @@ onBeforeUnmount(() => {
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic02.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">二二八公園</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">捷運三重站實景圖</span>
                 </div>
               </div>
             </SplideSlide>
@@ -422,21 +421,21 @@ onBeforeUnmount(() => {
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic03.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">二二八公園</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">捷運三重站實景圖</span>
                 </div>
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic04.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">二二八公園</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">捷運三重站實景圖</span>
                 </div>
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s3/b_pic05.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">二二八公園</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">捷運三重站實景圖</span>
                 </div>
               </div>
             </SplideSlide>
@@ -516,6 +515,7 @@ onBeforeUnmount(() => {
       .item {
         display: flex;
         flex-wrap: wrap;
+        align-content: flex-start;
 
         @media screen and (max-width: 767px) {
           margin-bottom: size-m(50);
@@ -528,6 +528,8 @@ onBeforeUnmount(() => {
           @media screen and (max-width: 767px) {
             order: 1 !important;
           }
+
+         
 
           .slide_item {
             .item_pic {
@@ -620,6 +622,15 @@ onBeforeUnmount(() => {
           }
         }
 
+        .right{
+          margin-bottom: size(50);
+          margin-top: size(40);
+          @media screen and (max-width: 767px) {
+          margin-bottom: size-m(0);
+          margin-top: size(0);
+        }
+        }
+
         .text {
           width: 100%;
           display: flex;
@@ -674,6 +685,7 @@ onBeforeUnmount(() => {
             font-weight: 400;
             width: 100%;
             order: 3;
+            font-size: size-m(13);
 
             @media screen and (max-width: 767px) {
               order: 3 !important;
@@ -758,13 +770,14 @@ onBeforeUnmount(() => {
       overflow: hidden;
       width: size-m(465);
       height: size-m(95);
+      left:size-m(-170);
       
       // transform: translateX(-50%);
 
       @media screen and (min-width: 768px) {
         width: size(1299);
         height: size(263);
-        left:size(-650);
+        left:size(-150);
       }
 
       img {
@@ -777,10 +790,7 @@ onBeforeUnmount(() => {
       }
 
       .blend {
-        mix-blend-mode: lighten;
-        mix-blend-mode: lighten;
-        opacity: 0.9;
-        filter: opacity(0.5);
+        mix-blend-mode: color-dodge;
       }
     }
 
@@ -880,6 +890,12 @@ onBeforeUnmount(() => {
 
       .pic {
         .slide_item {
+
+          span {
+              position: absolute;
+              bottom: size(15);
+              right: size(10);
+            }
           @media screen and (max-width: 767px) {
             width: size-m(217);
           }
@@ -891,9 +907,9 @@ onBeforeUnmount(() => {
             }
 
             span {
-              position: absolute;
-              bottom: size(15);
-              right: size(10);
+              bottom: size-m(5);
+              right: size-m(5);
+              font-size: size-m(13);
             }
           }
         }
@@ -971,7 +987,7 @@ onBeforeUnmount(() => {
   .bg_decor2 {
     position: absolute;
     right: 0;
-    top: size-m(700);
+    top: size-m(800);
     width: 100%;
 
     @media screen and (min-width: 768px) {

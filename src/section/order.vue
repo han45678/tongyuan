@@ -44,14 +44,14 @@
           </template>
           <!-- 動態 select end-->
 
-          <label class="row" v-if="requiredFields.city"><span>居住縣市</span>
+          <label class="row" v-if="requiredFields.city"><span>居住縣市<span>*</span></span>
             <select class="select w-full rounded-none" v-model="formData.city">
               <option value="" selected disabled>請選擇城市</option>
               <option v-for="city in cityList" :value="city.value" :key="city">
                 {{ city.label }}
               </option>
             </select></label>
-          <label class="row" v-if="requiredFields.area"><span>居住鄉鎮區</span>
+          <label class="row" v-if="requiredFields.area"><span>居住地區<span>*</span></span>
             <select class="select w-full rounded-none" v-model="formData.area">
               <option value="" selected disabled>請選擇地區</option>
               <option v-for="area in areaList" :value="area.value" :key="area">
@@ -292,18 +292,16 @@
     letter-spacing: 0.9em;
     text-indent: 0.9em;
     color: #fff;
-    background-color: #b28146;
-    //border: 1px solid #FFF9;
-    border: 0;
-    border-radius: .5em;
-
+    background-color: #ffffff3f;
+    border: 1px solid #FFF;
+    //border-radius: .5em;
     width: 308px;
     height: 3.3em;
     line-height: 3.3;
     z-index: 10;
     font-weight: 400;
     position: relative;
-    box-shadow: .2em .2em .05em #0004;
+    //box-shadow: .2em .2em .05em #0004;
   }
 
   .control {
@@ -448,7 +446,7 @@ const formData = reactive({
 })
 
 // bypass（非必填欄位，根據 selectFields 的 bypass 設定）
-const staticBypass = ["email", "msg", "city", "area"]
+const staticBypass = ["email", "msg"]
 const bypass = [
   ...staticBypass,
   ...Object.entries(selectFields)

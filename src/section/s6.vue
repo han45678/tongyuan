@@ -129,8 +129,8 @@ onBeforeUnmount(() => {
                 </svg>
               </div>
               <div class="ball_text">
-                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">悠遊居</h5>
-                <p class="year font-['Noto_Sans_TC'] text-[#fff]">三重市中心｜高坪效安心宅</p>
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">陽明一會</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">北市士林區｜國際半山豪邸</p>
               </div>
             </div>
           </div>
@@ -146,8 +146,8 @@ onBeforeUnmount(() => {
                 </svg>
               </div>
               <div class="ball_text">
-                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">悠遊居</h5>
-                <p class="year font-['Noto_Sans_TC'] text-[#fff]">三重市中心｜高坪效安心宅</p>
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">漾都心</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">新莊副都心｜白系質感輕奢宅</p>
               </div>
             </div>
           </div>
@@ -163,8 +163,8 @@ onBeforeUnmount(() => {
                 </svg>
               </div>
               <div class="ball_text">
-                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">悠遊居</h5>
-                <p class="year font-['Noto_Sans_TC'] text-[#fff]">三重市中心｜高坪效安心宅</p>
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">亞昕向上</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">新莊副都心｜金質獎千坪奢邸</p>
               </div>
             </div>
           </div>
@@ -180,8 +180,8 @@ onBeforeUnmount(() => {
                 </svg>
               </div>
               <div class="ball_text">
-                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">悠遊居</h5>
-                <p class="year font-['Noto_Sans_TC'] text-[#fff]">三重市中心｜高坪效安心宅</p>
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">陽明上隱</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">北市北投區｜日式極致藝品宅</p>
               </div>
             </div>
           </div>
@@ -197,8 +197,8 @@ onBeforeUnmount(() => {
                 </svg>
               </div>
               <div class="ball_text">
-                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">悠遊居</h5>
-                <p class="year font-['Noto_Sans_TC'] text-[#fff]">三重市中心｜高坪效安心宅</p>
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">仁愛逸仙</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">北市信義區｜仁愛路名家藝邸</p>
               </div>
             </div>
           </div>

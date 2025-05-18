@@ -22,7 +22,7 @@
         data-aos-delay="900">
     </div>
 
-    <a class="reserve" href="#order">
+    <a class="reserve hidden md:block" href="#order">
       <img src="@/section/s1/reserve.svg" alt="reserve">
     </a>
   </article>
@@ -35,7 +35,7 @@
   background: #DB2718;
   width: 100%;
   height: 100vh;
-  max-height: size-m(750);
+  max-height: size-m(607);
   position: relative;
   overflow: visible;
 
@@ -79,8 +79,8 @@
       padding-right: 0;
       width: size(560);
       left: unset;
-      right: size(200);
-      bottom: size(200);
+      right: size(650);
+      bottom: size(120);
     }
 
     .title {
