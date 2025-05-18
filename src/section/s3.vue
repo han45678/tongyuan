@@ -353,7 +353,7 @@ onBeforeUnmount(() => {
         </div>
       </div>
 
-      <div class="mrt" data-aos="fade-right">
+      <div class="mrt"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
         <img class="base" src="@/section/s3/MRT.png" />
         <img class="blend" src="@/section/s3/MRT_m.png" />
       </div>
@@ -758,12 +758,13 @@ onBeforeUnmount(() => {
       overflow: hidden;
       width: size-m(465);
       height: size-m(95);
-      transform: translateX(-50%);
+      
+      // transform: translateX(-50%);
 
       @media screen and (min-width: 768px) {
         width: size(1299);
         height: size(263);
-        transform: translateX(0);
+        left:size(-650);
       }
 
       img {
