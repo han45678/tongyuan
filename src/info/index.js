@@ -20,7 +20,7 @@ export default {
         ["投資興建", "統元建設股份有限公司"],
         ["坪數規劃", "18-32"],
         ["建築規劃", "吳成榮建築師事務所"],
-        ["企劃銷售", "(91)創意家行銷股份有限公司 陳子瑞"],
+        ["企劃銷售", "(91)創意家行銷股份有限公司"],
     ],
     gtmCode: ["GTM-5RWGFBCD"], // 可放置多個
     recaptcha_site_key_v2: "6Lep-78UAAAAAMaZLtddpvpixEb8cqu7v7758gLz", //主1
