@@ -23,9 +23,13 @@ import Fullview from '../components/fullview.vue';
   // background: #C7000B;
   width: 100%;
   position: relative;
-  padding: size(40);
   box-sizing: border-box;
-  .map{
+
+  @media screen and (min-width: 768px) {
+    padding: size(40);
+  }
+
+  .map {
     position: relative;
     z-index: 1;
   }

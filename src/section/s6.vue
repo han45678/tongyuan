@@ -61,7 +61,7 @@ onBeforeUnmount(() => {
 
 <template>
   <article class="s6 relative" id="s6">
-    <div class="title" >
+    <div class="title">
       <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <span class="font-['Noto_Serif_TC'] text-[#fff]">樸實真摯 雋永極美</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="119" height="49" viewBox="0 0 119 49" fill="none">
@@ -314,6 +314,23 @@ onBeforeUnmount(() => {
 
       .slide_item {
         .item_pic {
+          position: relative;
+
+          &::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            background-color: #000;
+            opacity: 0.6;
+            transition: 0.3s;
+          }
+
           img {
             width: 100%;
           }
@@ -405,37 +422,73 @@ onBeforeUnmount(() => {
         }
       }
 
-      &.is-active {
-        .slide_item {
-
-          .text {
-            .year {
-              opacity: 1;
+      @media screen and (max-width: 767px) {
+        &.is-active {
+          .slide_item {
+            .item_pic {
+              &::before {
+                opacity: 0;
+              }
             }
 
-            .ball_text {
-              opacity: 1;
+            .text {
+              .year {
+                opacity: 1;
+              }
+
+              .ball_text {
+                opacity: 1;
+              }
             }
+
           }
-
         }
       }
 
-      &.pc-active {
-        .slide_item {
-
-          .text {
-            .year {
-              opacity: 1;
+      @media screen and (min-width: 768px) {
+        &.pc-active {
+          .slide_item {
+            .item_pic {
+              &::before {
+                opacity: 0;
+              }
             }
 
-            .ball_text {
-              opacity: 1;
+            .text {
+              .year {
+                opacity: 1;
+              }
+
+              .ball_text {
+                opacity: 1;
+              }
             }
+
           }
+        }
 
+        &:hover {
+          .slide_item {
+            .item_pic {
+              &::before {
+                opacity: 0;
+              }
+            }
+
+            .text {
+              .year {
+                opacity: 1;
+              }
+
+              .ball_text {
+                opacity: 1;
+              }
+            }
+
+          }
         }
       }
+
     }
 
     .line {

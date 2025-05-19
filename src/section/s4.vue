@@ -36,17 +36,19 @@ onBeforeUnmount(() => {
   <article class="s4 relative" id="s4">
 
     <div class="text">
-      <h3 class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極萃綠地</h3>
+      <h3 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        極萃綠地</h3>
 
-      <div class="light"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <div class="light" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img class="hidden md:block" src="@/section/s3/light.webp" />
         <img class="block md:hidden" src="@/section/s3/light_m.webp" />
       </div>
 
-      <h4 class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">呼吸純粹的自由，擁抱綠意的靜謐</h4>
+      <h4 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        呼吸純粹的自由，擁抱綠意的靜謐</h4>
 
-      <div style=""></div>
-      <p class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+
+      <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         新北大都會公園424公頃、相當於1.25倍紐約中央公園、16座大安森林公園，水漾路前公園、集美商圈內玫瑰公園。讓孩子跑跳，樂活在陽光與綠地之間。
       </p>
     </div>
@@ -142,6 +144,62 @@ onBeforeUnmount(() => {
 
     </div>
 
+
+    <div class="_btn_ block md:hidden">
+      <div class="splide_btn prev" @click="goPrev1">
+        <img src="@/section/s3/prev.svg" alt="prev">
+      </div>
+      <div class="splide_btn next" @click="goNext1">
+        <img src="@/section/s3/next.svg" alt="next">
+      </div>
+    </div>
+
+    <div class="prev_btn block md:hidden" @click="goPrev1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+        <g filter="url(#filter0_d_61_350)">
+          <rect x="27" y="26" width="26" height="26" rx="13" transform="rotate(-180 27 26)" fill="black"
+            fill-opacity="0.44" shape-rendering="crispEdges" />
+        </g>
+        <path d="M17 20L10 13.1892L17 6" stroke="white" stroke-linecap="round" />
+        <defs>
+          <filter id="filter0_d_61_350" x="-3" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_350" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_350" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+    </div>
+
+    <div class="next_btn block md:hidden" @click="goNext1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34" fill="none">
+        <g filter="url(#filter0_d_61_347)">
+          <rect x="4" width="26" height="26" rx="13" fill="black" fill-opacity="0.44" shape-rendering="crispEdges" />
+        </g>
+        <path d="M14 6L21 12.8108L14 20" stroke="white" stroke-linecap="round" />
+        <defs>
+          <filter id="filter0_d_61_347" x="0" y="0" width="34" height="34" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_347" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_347" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+    </div>
 
   </article>
 </template>
@@ -262,9 +320,11 @@ onBeforeUnmount(() => {
     .slide {
       .slide_item {
         width: 100%;
+
         .item_pic {
           position: relative;
           width: 100%;
+
           // max-height: 100vh;
           img {
             width: 100%;
@@ -332,6 +392,19 @@ onBeforeUnmount(() => {
         }
       }
     }
+  }
+
+
+  .next_btn,.prev_btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .next_btn{
+    right: size-m(5);
+  }
+  .prev_btn{
+    left: size-m(5);
   }
 }
 </style>
