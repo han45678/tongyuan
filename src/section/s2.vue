@@ -8,7 +8,7 @@ import Fullview from '../components/fullview.vue';
     <div class="t1 block md:hidden">雙星璀璨 一橋咫尺<br>極致生活 跨域美好</div>
 
     <div class="map hidden md:block">
-      <img src="@/section/s2/map.webp" alt="bg_decor">
+      <img src="@/section/s2/map.png" alt="bg_decor">
     </div>
 
     <div class="map block md:hidden">
@@ -39,6 +39,10 @@ import Fullview from '../components/fullview.vue';
     }
     position: relative;
     z-index: 1;
+      img{
+      background: url("@/section/s2/map.jpg") center;
+      background-size: cover;
+      }
   }
 
 

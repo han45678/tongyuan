@@ -390,7 +390,6 @@ onBeforeUnmount(() => {
 
       <div class="mrt" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
         <img class="base" src="@/section/s3/MRT.png" />
-        <img class="blend" src="@/section/s3/MRT_m.png" />
 
       </div>
 
@@ -501,6 +500,7 @@ onBeforeUnmount(() => {
 
     <img class="bg_decor2 hidden md:block" src="@/section/s3/bg_decor2.webp" alt="pic">
     <img class="bg_decor2 block md:hidden" src="@/section/s3/bg_decor2m.webp" alt="pic">
+        <img class="blend" src="@/section/s3/MRT_m.png" />
 
   </article>
 </template>
@@ -846,9 +846,6 @@ onBeforeUnmount(() => {
         object-fit: cover;
       }
 
-      .blend {
-        mix-blend-mode: color-dodge;
-      }
     }
 
     .content_b {
@@ -1052,7 +1049,19 @@ onBeforeUnmount(() => {
       width: auto;
     }
   }
+  .blend {
+  mix-blend-mode: color-dodge;
+    position: absolute;
+    left:size-m(-250);;z-index: 3;
+    top: size-m(930);
+    width: size-m(600);
+    @media screen and (min-width: 768px) {
+    top: size(1100);
+    left: 0;
+    width: size(1166);
 
+    }
+  }
   .bg_decor2 {
     position: absolute;
     right: 0;
