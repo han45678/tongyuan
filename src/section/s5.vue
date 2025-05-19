@@ -437,7 +437,7 @@ onBeforeUnmount(() => {
         @media screen and (min-width: 768px) {
           width: size(850);
           padding-left: 0;
-          padding-right: 0;
+          padding-right: 0;    margin-left: auto;margin-right: auto;
           margin-top: 0;
           order: unset
         }
