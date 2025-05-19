@@ -32,6 +32,11 @@ import Fullview from '../components/fullview.vue';
   }
 
   .map {
+    @media screen and (min-width: 768px) {
+      img{
+        width: 100%;
+      }
+    }
     position: relative;
     z-index: 1;
   }
