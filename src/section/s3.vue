@@ -83,7 +83,8 @@ onBeforeUnmount(() => {
   <article class="s3 relative" id="s3">
 
     <div class="wrapper">
-      <div class="title font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <div class="title font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="500">
         <span class="hidden md:block">西區門戶 國門首席 璀璨時代 極刻啟程</span>
         <span class="block md:hidden">
           西區門戶 國門首席<br>
@@ -203,24 +204,30 @@ onBeforeUnmount(() => {
             </div>
           </div>
           <div class="text">
-            <h3 class="hidden md:block font-['Noto_Sans_TC'] text-[#EEBA51]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="hidden md:block font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               <span class="hidden md:block">GATEGATEWAY TO THE NATION</span>
               <img class="block md:hidden" src="@/section/s3/title01.svg" alt="title">
             </h3>
-            <h4 class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">六鐵共構  台北中央車站</h4>
-            <p class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h4 class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">六鐵共構  台北中央車站</h4>
+            <p class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>
               五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>
               國家門戶之首，西區崛起。
             </p>
 
-            <h3 class="block md:hidden font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="block md:hidden font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               <span class="hidden md:block">DRAWS GLOBAL ATTENTION</span>
               <img class="block md:hidden" src="@/section/s3/title02.svg" alt="title">
             </h3>
 
-            <h4 class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">首都璀璨  台北雙子星</h4>
-            <p class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h4 class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">首都璀璨  台北雙子星</h4>
+            <p class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               西區即刻顛覆，東軸西轉，台北雙子星大樓，挹注建設金額達606億，<br>
               規模超越台北101，西區嶄新門戶，萬眾焦點，舉世矚目。
             </p>
@@ -349,23 +356,29 @@ onBeforeUnmount(() => {
 
           </div>
           <div class="text hidden md:block">
-            <h3 class="hidden md:block font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="hidden md:block font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               <span class="hidden md:block">DRAWS GLOBAL ATTENTION</span>
               <img class="block md:hidden" src="@/section/s3/title02.svg" alt="title">
             </h3>
 
-            <h4 class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">首都璀璨  台北雙子星</h4>
-            <p class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h4 class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">首都璀璨  台北雙子星</h4>
+            <p class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               西區即刻顛覆，東軸西轉，台北雙子星大樓，挹注建設金額達606億，<br>
               規模超越台北101，西區嶄新門戶，萬眾焦點，舉世矚目。
             </p>
 
-            <h3 class="block md:hidden font-['Noto_Sans_TC'] text-[#EEBA51]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="block md:hidden font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               <span class="hidden md:block">GATEGATEWAY TO THE NATION</span>
               <img class="block md:hidden" src="@/section/s3/title01.svg" alt="title">
             </h3>
-            <h4 class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">六鐵共構  台北中央車站</h4>
-            <p class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h4 class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">六鐵共構  台北中央車站</h4>
+            <p class="block md:hidden font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
               台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>
               五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>
               國家門戶之首，西區崛起。
@@ -375,25 +388,27 @@ onBeforeUnmount(() => {
         </div>
       </div>
 
-      <div class="mrt"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+      <div class="mrt" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
         <img class="base" src="@/section/s3/MRT.png" />
         <img class="blend" src="@/section/s3/MRT_m.png" />
-        
+
       </div>
 
       <div class="content_b">
 
         <div class="text">
-          <h3 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極速交通</h3>
+          <h3 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="500">極速交通</h3>
 
-          <div class="light"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="light" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <img class="hidden md:block" src="@/section/s3/light.webp" />
             <img class="block md:hidden" src="@/section/s3/light_m.webp" />
           </div>
 
-          <h4 class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">A2機捷三重站 ╳ 新蘆線三重站雙捷匯聚</h4>
+          <h4 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="500">A2機捷三重站 ╳ 新蘆線三重站雙捷匯聚</h4>
 
-          <p class="font-['Noto_Sans_TC'] text-[#fff]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             1站直達台北車站，快速接軌高鐵與全台捷運網絡，通勤無憂。一線直通桃園國際機場，<br>
             隨時啟程，連結世界零時差。便捷交通，讓繁華與國際盡在轉瞬之間！
           </p>
@@ -409,7 +424,7 @@ onBeforeUnmount(() => {
             pagination: false,    // 顯示下方小點 ✅
             drag: true,          // 可拖曳
             perPage: 3,          // 每頁3張
-            perMove: 1, 
+            perMove: 1,
             rewind: true,         // 可循環播放
             gap: '15px',
             breakpoints: {
@@ -421,7 +436,8 @@ onBeforeUnmount(() => {
           }">
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/b_pic00.webp" alt="pic">
+                <div class="item_pic">
+                  <img src="@/section/s3/b_pic00.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">台北車站(台灣高鐵)示意圖</span>
                 </div>
 
@@ -554,7 +570,7 @@ onBeforeUnmount(() => {
             order: 1 !important;
           }
 
-         
+
 
           .slide_item {
             .item_pic {
@@ -647,13 +663,14 @@ onBeforeUnmount(() => {
           }
         }
 
-        .right{
+        .right {
           margin-bottom: size(50);
           margin-top: size(40);
+
           @media screen and (max-width: 767px) {
-          margin-bottom: size-m(0);
-          margin-top: size(0);
-        }
+            margin-bottom: size-m(0);
+            margin-top: size(0);
+          }
         }
 
         .text {
@@ -777,12 +794,26 @@ onBeforeUnmount(() => {
 
             ._btn_ {
               margin-left: auto;
+
             }
           }
 
           .text {
             order: 1;
             padding-left: size(35);
+
+            @media screen and (min-width: 768px) {
+              margin-top: size(60);
+              margin-bottom: size(50);
+
+              h3 {
+                margin-bottom: size(45);
+              }
+
+              h4 {
+                margin-bottom: size(15);
+              }
+            }
           }
         }
 
@@ -795,14 +826,14 @@ onBeforeUnmount(() => {
       overflow: hidden;
       width: size-m(465);
       height: size-m(95);
-      left:size-m(-170);
-      
+      left: size-m(-170);
+
       // transform: translateX(-50%);
 
       @media screen and (min-width: 768px) {
         width: size(1299);
         height: size(263);
-        left:size(-150);
+        left: size(-150);
       }
 
       img {
@@ -916,14 +947,6 @@ onBeforeUnmount(() => {
       .pic {
         .slide_item {
 
-          span {
-              position: absolute;
-              bottom: size(15);
-              right: size(10);
-            }
-          @media screen and (max-width: 767px) {
-            width: size-m(217);
-          }
           .item_pic {
             position: relative;
 
@@ -932,12 +955,32 @@ onBeforeUnmount(() => {
             }
 
             span {
+              position: absolute;
               bottom: size-m(5);
               right: size-m(5);
               font-size: size-m(13);
+
+              @media screen and (min-width: 768px) {
+                font-size: size(12);
+                bottom: size(10);
+                right: size(10);
+              }
             }
           }
+
+          // span {
+          //   position: absolute;
+          //   bottom: size(15);
+          //   right: size(10);
+          // }
+
+          @media screen and (max-width: 767px) {
+            width: size-m(217);
+          }
+
+
         }
+
 
         ._btn_ {
           margin-left: auto;

@@ -131,27 +131,15 @@ onBeforeUnmount(() => {
           </div>
         </SplideSlide>
       </Splide>
-
-
-      <div class="_btn_ hidden md:block">
-        <div class="splide_btn prev" @click="goPrev3">
+      <div class="_btn_ block md:hidden">
+        <div class="splide_btn prev" @click="goPrev1">
           <img src="@/section/s3/prev.svg" alt="prev">
         </div>
-        <div class="splide_btn next" @click="goNext3">
+        <div class="splide_btn next" @click="goNext1">
           <img src="@/section/s3/next.svg" alt="next">
         </div>
       </div>
 
-    </div>
-
-
-    <div class="_btn_ block md:hidden">
-      <div class="splide_btn prev" @click="goPrev1">
-        <img src="@/section/s3/prev.svg" alt="prev">
-      </div>
-      <div class="splide_btn next" @click="goNext1">
-        <img src="@/section/s3/next.svg" alt="next">
-      </div>
     </div>
 
     <div class="prev_btn block md:hidden" @click="goPrev1">
@@ -395,15 +383,18 @@ onBeforeUnmount(() => {
   }
 
 
-  .next_btn,.prev_btn{
+  .next_btn,
+  .prev_btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
-  .next_btn{
+
+  .next_btn {
     right: size-m(5);
   }
-  .prev_btn{
+
+  .prev_btn {
     left: size-m(5);
   }
 }

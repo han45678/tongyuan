@@ -25,8 +25,8 @@ const ball_svg = ref(null)
 const line = ref(null);
 
 function updateLinePosition() {
+  //  window.innerWidth >= 786 &&
   if (
-    window.innerWidth >= 786 &&
     pic.value &&
     ball_svg.value &&
     line.value
@@ -309,7 +309,17 @@ onBeforeUnmount(() => {
       padding-right: size(90);
     }
 
+    .splide__track {
+      @media screen and (min-width: 768px) {
+        overflow: visible;
+      }
+    }
+
     .splide__slide {
+      @media screen and (max-width: 767px) {
+        width: size-m(177);
+      }
+
       cursor: pointer;
 
       .slide_item {
@@ -355,7 +365,7 @@ onBeforeUnmount(() => {
             opacity: 0.4;
             transition: 0.3s;
             font-weight: 500;
-            padding-bottom: size-m(5);
+            padding-bottom: size-m(10);
             font-size: size-m(20.336);
             letter-spacing: size-m(0.407);
 
@@ -371,6 +381,8 @@ onBeforeUnmount(() => {
             margin-left: auto;
             margin-right: auto;
             width: 100%;
+            width: size-m(15);
+            height: size-m(15);
 
             @media screen and (min-width: 768px) {
               width: size(17);
@@ -448,11 +460,6 @@ onBeforeUnmount(() => {
       @media screen and (min-width: 768px) {
         &.pc-active {
           .slide_item {
-            .item_pic {
-              &::before {
-                opacity: 0;
-              }
-            }
 
             .text {
               .year {
