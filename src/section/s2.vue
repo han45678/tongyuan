@@ -47,7 +47,7 @@ import Fullview from '../components/fullview.vue';
       background-size: cover;
       }
       @media screen and (max-width: 767px) {
-    margin: 15vw 0;
+       margin-top: 15vw;
       }
   }
 
