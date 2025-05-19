@@ -207,17 +207,11 @@ onBeforeUnmount(() => {
               <span class="hidden md:block">GATEGATEWAY TO THE NATION</span>
               <img class="block md:hidden" src="@/section/s3/title01.svg" alt="title">
             </h3>
-<<<<<<< HEAD
             <h4 class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">六鐵共構  台北中央車站</h4>
             <p class="hidden md:block font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>
               五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>
               國家門戶之首，西區崛起。
-=======
-            <h4 class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">六鐵共構  台北中央車站</h4>
-            <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-              台北中央車站-雙子星國門特區，高級住宅、國際商務、購物休閒、<br>五星級飯店一應俱全，台鐵、捷運、高鐵、機場捷運，四通八達，<br>國家門戶之首，西區崛起。
->>>>>>> 88cf8ac1681bde89f9ba11ac7c39e2ba0fa1cbe1
             </p>
 
             <h3 class="block md:hidden font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -354,13 +348,8 @@ onBeforeUnmount(() => {
             </div>
 
           </div>
-<<<<<<< HEAD
           <div class="text hidden md:block">
             <h3 class="hidden md:block font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-=======
-          <div class="text right">
-            <h3 class="font-['Noto_Sans_TC'] text-[#EEBA51]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
->>>>>>> 88cf8ac1681bde89f9ba11ac7c39e2ba0fa1cbe1
               <span class="hidden md:block">DRAWS GLOBAL ATTENTION</span>
               <img class="block md:hidden" src="@/section/s3/title02.svg" alt="title">
             </h3>
