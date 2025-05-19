@@ -10,6 +10,7 @@ import S4 from "@/section/s4.vue"
 import S5 from "@/section/s5.vue"
 import S6 from "@/section/s6.vue"
 import Order from "@/section/order.vue"
+//import houseinfo from "@/section/form/houseinfo.vue"
 import { onMounted, ref } from "vue"
 
 import AOS from 'aos';

@@ -4,6 +4,8 @@ import Fullview from '../components/fullview.vue';
 
 <template>
   <article class="s2 relative" id="s2">
+    <div class="t1 hidden md:block">雙星璀璨 一橋咫尺   極致生活 跨域美好</div>
+    <div class="t1 block md:hidden">雙星璀璨 一橋咫尺<br>極致生活 跨域美好</div>
 
     <div class="map hidden md:block">
       <img src="@/section/s2/map.webp" alt="bg_decor">
@@ -32,6 +34,27 @@ import Fullview from '../components/fullview.vue';
   .map {
     position: relative;
     z-index: 1;
+  }
+
+
+  .t1{
+      position: absolute;
+      z-index: 99;
+      font-weight: 500;
+      top:size-m(40);
+      left:size-m(85);
+      font-size: size-m(25);
+      padding-bottom: size-m(40);
+      line-height: 1.5;
+      color: #fff;
+
+      @media screen and (min-width: 768px) {
+        font-size: size(36);
+        top:size(86);
+        left:size(676);
+        padding-bottom: size(65);
+        line-height: unset
+      }
   }
 }
 </style>

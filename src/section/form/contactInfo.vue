@@ -157,7 +157,7 @@
       gap: 1em;
 
       &:hover {
-        background: #c30;
+        background: #DCA435;
         color: #fff;
 
         img {
@@ -247,7 +247,7 @@
     height: size-m(63);
     gap: size-m(1);
     box-shadow: 0 0 size-m(50) rgba(0, 0, 0, 0.501);
-    background:#A30C24;
+    background:#7D272B;
 
     .contact-item {
       height: 100%;      

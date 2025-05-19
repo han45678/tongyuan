@@ -1,33 +1,28 @@
-const caseName = "春樹醴"
+const caseName = "統元極美"
 export default {
     meta: {
         title: caseName,
         description: caseName,
         keywords: caseName,
     },
-    caseid: "9ec69845-e697-47d0-b7ba-4fad65ec7fcd",
-   //case_code: "csl",
-    address1: "籌備處",//按鈕區的--- 如空白會只呈現地址
-    address2: "",//map點下確認的--- 如空白會顯示"導航地址"
+    caseid: "45df4117-2e6e-4922-a514-1ac66476f978",
+    case_code: "tongyuan",
+    address1: "接待中心",//按鈕區的--- 如空白會只呈現地址
+    address2: "接待中心",//map點下確認的--- 如空白會顯示"導航地址"
     address: "三重區光陽街78號",
-    googleSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.1917273405707!2d121.28340937607621!3d24.9255376426491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346818f4c9f0dbcd%3A0x15792d39fd1437be!2zMzM05qGD5ZyS5biC5YWr5b635Y2A6LGQ5b635LqM6LevOOiZnw!5e0!3m2!1szh-TW!2stw!4v1746526523136!5m2!1szh-TW!2stw",
-    googleLink: "https://maps.app.goo.gl/hwHC6h11hjJun9Rg7",
+    googleSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d537.2720759746768!2d121.48200091431106!3d25.057096851045657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a900523d0797%3A0x9660f889cba272ac!2z57Wx5YWD5qW1576OIOaOpeW-heS4reW_gw!5e0!3m2!1szh-TW!2stw!4v1747587055966!5m2!1szh-TW!2stw",
+    googleLink: "https://maps.app.goo.gl/B7yyvqbFPCywZVQC7",
     phone: "02-2989-2168",
-    fbLink: "https://www.facebook.com/100063880612874/",
-    fbMessage: "https://m.me/100063880612874/",
+    fbLink: "https://www.facebook.com/61551470159566/",
+    fbMessage: "https://m.me/61551470159566/",
     caseName: caseName,
     houseInfos: [
-        /*
-        ["空間設計", "相即空間設計"],
-        ["企劃銷售", "低碳健康樂活行銷"],
-        ["建照號碼", "(111)桃市都建執照字第會德00701-02號"],
-        ["經紀人", "(91)北市經證字第00692號 陳子瑞"], 
-        ["建築設計", "弘憲聯合建築師事務所"],
-        ["使照號碼", "王朝雍建築師事務所"],
-        ["行銷企劃", "自售"],
-        */
+        ["投資興建", "統元建設股份有限公司"],
+        ["坪數規劃", "18-32"],
+        ["建築規劃", "吳成榮建築師事務所"],
+        ["企劃銷售", "(91)創意家行銷股份有限公司 陳子瑞"],
     ],
-    gtmCode: ["GTM-WL7SMSBH"], // 可放置多個
+    gtmCode: ["GTM-5RWGFBCD"], // 可放置多個
     recaptcha_site_key_v2: "6Lep-78UAAAAAMaZLtddpvpixEb8cqu7v7758gLz", //主1
     //recaptcha_site_key_v2: "6LfGUjEaAAAAANYvhZQx5imGm23pRt0V-rOvkpNC", //主2
     //recaptcha_site_key_v2: "6LdbrqAmAAAAAPj2D_6cBbflea1livK9Uud4FGmN", //主3
@@ -43,21 +38,22 @@ export default {
         title: "需求房型",
         hold: "請選擇房型",
         option: ["兩房", "三房"],
-        bypass:false,
+        bypass:true,
       },
-      /*
+      
       budget: {
         title: "購屋預算",
         hold: "請選擇區間",
-        option: ["1000", "2000", "3000"],
+        option: ["1500~2000萬", "2000~2500萬", "2500~3000萬", "3000~3500萬"],
         bypass:true, //必填開啟使用
       },
+      /*
       use_type: {
         title: "使用用途",
         hold: "請選擇用途",
         option: ["自住", "投資", "租賃"]
     },
-      */
+    */
 },
 
     navList: [

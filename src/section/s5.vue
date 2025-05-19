@@ -72,41 +72,83 @@ onBeforeUnmount(() => {
             perPage: 1,          // 每頁一張
             rewind: true         // 可循環播放
           }">
-            <SplideSlide class="slide">
+           <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic01.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic01.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">全聯實景拍攝</span>
                 </div>
 
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic02.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic02.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">迪卡儂實景拍攝</span>
                 </div>
 
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic03.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic03.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">家樂福實景拍攝</span>
                 </div>
               </div>
             </SplideSlide>
 
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic04.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">西區門戶意象</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic04.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">集美市場實景拍攝</span>
                 </div>
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic05.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">一橋北市 (忠孝橋/中興橋)意象</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic05.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">集美市場實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic06.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">三重行政大樓實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic07.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">三重國民運動中心實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic08.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">聯合醫院實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic09.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic10.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">松山CITY LINK示意</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/t_pic11.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">松山CITY LINK示意</span>
                 </div>
               </div>
             </SplideSlide>
@@ -202,39 +244,36 @@ onBeforeUnmount(() => {
           }">
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic01.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
-                </div>
-
-              </div>
-            </SplideSlide>
-            <SplideSlide class="slide">
-              <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic02.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
-                </div>
-
-              </div>
-            </SplideSlide>
-            <SplideSlide class="slide">
-              <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic03.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
-                </div>
-              </div>
-            </SplideSlide>
-
-            <SplideSlide class="slide">
-              <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic04.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">西區門戶意象</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic01.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">集美雙語國小實景拍攝</span>
                 </div>
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s3/l_pic05.webp" alt="pic">
-                  <span class="font-['Noto_Sans_TC'] text-[#fff]">一橋北市 (忠孝橋/中興橋)意象</span>
+                <div class="item_pic"><img src="@/section/s5/b_pic02.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">三重高中實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/b_pic03.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">三重圖書館實景拍攝</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/b_pic04.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">小學生情境示意圖</span>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide class="slide">
+              <div class="slide_item">
+                <div class="item_pic"><img src="@/section/s5/b_pic05.webp" alt="pic">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff]">中學生情境示意圖</span>
                 </div>
               </div>
             </SplideSlide>
@@ -297,10 +336,10 @@ onBeforeUnmount(() => {
             </div>
           </div>
         </div>
-        <div class="text">
+        <div class="text bot">
 
           <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極致學區</h2>
-          <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">一步雙語名校，菁英教育國際接軌</h3>
+          <h3 class="font-['Noto_Sans_TC'] text-[#000] " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">一步雙語名校，菁英教育國際接軌</h3>
           <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             書香繚繞，名校為鄰。近享集美雙語國小與三重高中，十二年國教完美銜接，學子從容踏步未來。外語教育培養國際人才，步行可及的安心與便利，讓父母的期盼與學子的夢想，極致展開。</p>
         </div>
@@ -329,11 +368,11 @@ onBeforeUnmount(() => {
 
   .bg_decor {
     position: absolute;
-    left: 0;
+    left: size(-50);
     z-index: 1;
     pointer-events: none;
     top: size(-275);
-    width: size(1460);
+    width: size(1380);
   }
 
   .wrapper {
@@ -413,6 +452,12 @@ onBeforeUnmount(() => {
               position: absolute;
               right: size(15);
               bottom: size(10);
+
+              @media screen and (max-width: 768px) {
+              right: size-m(5);
+              bottom: size-m(5);
+              font-size: size-m(13);
+              }
             }
           }
         }
@@ -476,6 +521,23 @@ onBeforeUnmount(() => {
         }
       }
 
+      .bot{
+          h2{
+          &::before {
+            @media screen and (min-width: 768px) {
+              left: size(-605) !important;
+            }
+          }
+        }
+
+        h3{
+          margin-bottom: size-m(20);
+           @media screen and (min-width: 768px) {
+              margin-bottom: size(0);
+            }
+        }
+        }
+
       .text {
         width: 100%;
         order: 1;
@@ -484,6 +546,8 @@ onBeforeUnmount(() => {
           width: calc(100% - size(850));
           order: unset
         }
+
+        
 
         h2 {
           position: relative;
@@ -519,6 +583,7 @@ onBeforeUnmount(() => {
               top: 0;
               width: size(17);
               height: 100%;
+              left: size(-675);
             }
           }
 
