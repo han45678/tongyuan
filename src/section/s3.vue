@@ -424,13 +424,14 @@ onBeforeUnmount(() => {
             pagination: false,    // 顯示下方小點 ✅
             drag: true,          // 可拖曳
             perPage: 3,          // 每頁3張
-            perMove: 1,
+            perMove: 3,
             rewind: true,         // 可循環播放
             gap: '15px',
             breakpoints: {
               768: {
                 autoWidth: true,
                 focus: 'center',
+                perMove: 1,
               }
             }
           }">
