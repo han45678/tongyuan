@@ -30,6 +30,9 @@ import Fullview from '../components/fullview.vue';
   @media screen and (min-width: 768px) {
     padding: size(40);
   }
+      @media screen and (max-width: 767px) {
+    background: #0587df;overflow: hidden;
+      }
 
   .map {
     @media screen and (min-width: 768px) {
@@ -42,6 +45,9 @@ import Fullview from '../components/fullview.vue';
       img{
       background: url("@/section/s2/map.jpg") center;
       background-size: cover;
+      }
+      @media screen and (max-width: 767px) {
+    margin: 15vw 0;
       }
   }
 

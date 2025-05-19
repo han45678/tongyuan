@@ -3,7 +3,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const splideRef1 = ref(null)
 const no1 = ref(0);
-
+/*
 const goPrev1 = () => {
   splideRef1.value?.splide.go('-1')
   no1.value = splideRef1.value?.splide.index;
@@ -13,11 +13,11 @@ const goNext1 = () => {
   splideRef1.value?.splide.go('+1')
   no1.value = splideRef1.value?.splide.index;
 }
-
+*/
 
 const splideRef2 = ref(null)
 const no2 = ref(0);
-
+/*
 const goPrev2 = () => {
   splideRef2.value?.splide.go('-1')
   no2.value = splideRef2.value?.splide.index;
@@ -27,7 +27,7 @@ const goNext2 = () => {
   splideRef2.value?.splide.go('+1')
   no2.value = splideRef2.value?.splide.index;
 }
-
+*/
 onMounted(() => {
   if (splideRef1.value) {
     splideRef1.value.splide.on('moved', () => {
@@ -66,7 +66,7 @@ onBeforeUnmount(() => {
             autoplay: true,     // 不自動播放
             interval: 5000,      // 可省略，因為 autoplay 是 false
             speed: 1000,         // 切換速度
-            arrows: false,        // 顯示左右箭頭 ✅
+            arrows: true,        // 顯示左右箭頭 ✅
             pagination: false,    // 顯示下方小點 ✅
             drag: true,          // 可拖曳
             perPage: 1,          // 每頁一張
@@ -153,7 +153,7 @@ onBeforeUnmount(() => {
               </div>
             </SplideSlide>
           </Splide>
-
+<!-- 
 
           <div class="prev_btn block md:hidden" @click="goPrev1">
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
@@ -210,7 +210,7 @@ onBeforeUnmount(() => {
             <div class="splide_btn next" @click="goNext1">
               <img src="@/section/s3/next.svg" alt="next">
             </div>
-          </div>
+          </div>  -->
         </div>
         <div class="text">
           <h2 class="font-['Noto_Sans_TC'] text-[#DCA435]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">極美機能</h2>
@@ -236,7 +236,7 @@ onBeforeUnmount(() => {
             autoplay: true,     // 不自動播放
             interval: 5000,      // 可省略，因為 autoplay 是 false
             speed: 1000,         // 切換速度
-            arrows: false,        // 顯示左右箭頭 ✅
+            arrows: true,        // 顯示左右箭頭 ✅
             pagination: false,    // 顯示下方小點 ✅
             drag: true,          // 可拖曳
             perPage: 1,          // 每頁一張
@@ -278,7 +278,7 @@ onBeforeUnmount(() => {
               </div>
             </SplideSlide>
           </Splide>
-
+<!-- 
           <div class="prev_btn block md:hidden" @click="goPrev1">
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
               <g filter="url(#filter0_d_61_350)">
@@ -335,6 +335,7 @@ onBeforeUnmount(() => {
               <img src="@/section/s3/next.svg" alt="next">
             </div>
           </div>
+          -->
         </div>
         <div class="text bot">
 
@@ -425,11 +426,12 @@ onBeforeUnmount(() => {
       }
 
       .pic {
-        width: 100%;
+        width: calc(100% + #{size-m(30)});
         position: relative;
         order: 2;
-        padding-left: size-m(15);
-        padding-right: size-m(15);
+       // padding-left: size-m(15);
+      //  padding-right: size-m(15);
+      margin-left: size-m(-15);margin-right: size-m(-15);
         margin-top: size-m(15);
 
         @media screen and (min-width: 768px) {
@@ -502,7 +504,6 @@ onBeforeUnmount(() => {
             }
           }
         }
-
         .prev_btn,
         .next_btn {
           width: size-m(26);
@@ -706,5 +707,32 @@ onBeforeUnmount(() => {
       }
     }
   }
+  .splide__arrows{background: #000;display: block;}
 }
+</style>
+<style lang="scss">
+@media screen and (max-width: 767px) {
+.s5{
+.splide{padding:0 8.5vw;}
+.splide__arrows{display: flex;position: absolute;top:calc(50% - 1em);left: 0;right: 0;z-index: 10;height: 2em;width: 100%;
+  border-radius: 1em;color:#fff;
+  justify-content: space-between;
+svg{ filter: brightness(0) invert(1);width: 1em;height: 2em;margin: auto;}
+}
+.splide__arrow {background: #0006;border-radius: 50%;height: 2em;width: 2em;}
+.splide__arrow--prev{transform: scaleX(-1);margin: 0 1em 0 0;}
+
+}  }
+  @media screen and (min-width: 768px) {
+.s5{
+  .splide{padding:0 0 2.5em 0;}
+  .splide__arrows{background: #0006;display: block;position: absolute;bottom:0;right: 0;z-index: 10;height: 2em;width: 5em;
+    border-radius: 1em;
+    text-align: center;color:#fff;
+    &::before{content: "/";position: absolute;left:calc(50% - .2em);top: .1em;}
+  svg{ filter: brightness(0) invert(1);width: 1em;height: 2em;}
+}
+.splide__arrow--prev{transform: scaleX(-1);margin: 0 1em 0 0;}
+
+  }  }
 </style>
