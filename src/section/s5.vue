@@ -74,7 +74,7 @@ onBeforeUnmount(() => {
           }">
            <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s5/b_pic01.webp" alt="pic">
+                <div class="item_pic"><img src="@/section/s5/t_pic01.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">全聯實景拍攝</span>
                 </div>
 
@@ -82,7 +82,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s5/b_pic02.webp" alt="pic">
+                <div class="item_pic"><img src="@/section/s5/t_pic02.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">迪卡儂實景拍攝</span>
                 </div>
 
@@ -90,7 +90,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s5/b_pic03.webp" alt="pic">
+                <div class="item_pic"><img src="@/section/s5/t_pic03.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">家樂福實景拍攝</span>
                 </div>
               </div>
@@ -98,14 +98,14 @@ onBeforeUnmount(() => {
 
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s5/b_pic04.webp" alt="pic">
+                <div class="item_pic"><img src="@/section/s5/t_pic04.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">集美市場實景拍攝</span>
                 </div>
               </div>
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s5/b_pic05.webp" alt="pic">
+                <div class="item_pic"><img src="@/section/s5/t_pic05.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">集美市場實景拍攝</span>
                 </div>
               </div>
