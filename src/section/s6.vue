@@ -444,8 +444,9 @@ onBeforeUnmount(() => {
               }
             }
 
-            p {
+            p {font-size: size-m(14);
               font-weight: 350;
+              margin-bottom: 1.5em;
 
               @media screen and (min-width: 768px) {
                 font-size: size(14);
