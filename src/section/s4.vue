@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic01.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic01_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -80,7 +80,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic02.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic02_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -90,7 +90,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic03.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic03_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic04.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic04_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -108,7 +108,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic05.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic05_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -117,7 +117,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic06.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic06_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>
@@ -126,7 +126,7 @@ onBeforeUnmount(() => {
             <div class="item_pic">
               <div class="hidden md:block"><img src="@/section/s4/pic07.webp" alt="pic"></div>
               <div class="block md:hidden"><img src="@/section/s4/pic07_m.webp" alt="pic"></div>
-              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園 ※資料來源 新北市政府施政成果網</span>
+              <span class="font-['Noto_Sans_TC'] text-[#fff]">新北大都會公園實景</span>
             </div>
           </div>
         </SplideSlide>

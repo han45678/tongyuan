@@ -103,7 +103,7 @@ onBeforeUnmount(() => {
       }">
         <SplideSlide class="slide" @click="selectSlide(0)" :class="{ 'pc-active': no3 === 0 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2006.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2024.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2024</div>
               <div ref="ball_svg" class="ball">
@@ -120,7 +120,7 @@ onBeforeUnmount(() => {
         </SplideSlide>
         <SplideSlide class="slide" @click="selectSlide(1)" :class="{ 'pc-active': no3 === 1 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2011.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2020.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2020</div>
               <div class="ball">
@@ -137,7 +137,7 @@ onBeforeUnmount(() => {
         </SplideSlide>
         <SplideSlide class="slide" @click="selectSlide(2)" :class="{ 'pc-active': no3 === 2 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2015.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2019.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2019</div>
               <div class="ball">
@@ -152,9 +152,10 @@ onBeforeUnmount(() => {
             </div>
           </div>
         </SplideSlide>
+        <!-- 
         <SplideSlide class="slide" @click="selectSlide(3)" :class="{ 'pc-active': no3 === 3 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2019.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2015.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2015</div>
               <div class="ball">
@@ -169,9 +170,11 @@ onBeforeUnmount(() => {
             </div>
           </div>
         </SplideSlide>
-        <SplideSlide class="slide" @click="selectSlide(4)" :class="{ 'pc-active': no3 === 4 }">
+         -->
+
+        <SplideSlide class="slide" @click="selectSlide(3)" :class="{ 'pc-active': no3 === 3 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2020.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2011.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2011</div>
               <div class="ball">
@@ -186,9 +189,27 @@ onBeforeUnmount(() => {
             </div>
           </div>
         </SplideSlide>
+
+        <SplideSlide class="slide" @click="selectSlide(4)" :class="{ 'pc-active': no3 === 4 }">
+          <div class="slide_item">
+            <div class="item_pic"><img src="@/section/s6/2008.jpg" alt="pic"></div>
+            <div class="text">
+              <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2008</div>
+              <div class="ball">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                  <circle cx="8.5" cy="8.5" r="8.5" fill="#DCA435" />
+                </svg>
+              </div>
+              <div class="ball_text">
+                <h5 class="year font-['Noto_Sans_TC'] text-[#DCA435]">克拉美地</h5>
+                <p class="year font-['Noto_Sans_TC'] text-[#fff]">北市北投區｜23層SRC鋼骨制震</p>
+              </div>
+            </div>
+          </div>
+        </SplideSlide>
         <SplideSlide class="slide" @click="selectSlide(5)" :class="{ 'pc-active': no3 === 5 }">
           <div class="slide_item">
-            <div class="item_pic"><img src="@/section/s6/2022.webp" alt="pic"></div>
+            <div class="item_pic"><img src="@/section/s6/2006.webp" alt="pic"></div>
             <div class="text">
               <div class="year font-['Noto_Serif_TC'] text-[#DCA435]">2006</div>
               <div class="ball">
@@ -355,7 +376,7 @@ onBeforeUnmount(() => {
           width: 100%;
 
           @media screen and (min-width: 768px) {
-            width: size(60);
+          //  width: size(60);
             margin-top: size(20);
             padding-top: size(10);
             margin-top: 0;
@@ -406,8 +427,8 @@ onBeforeUnmount(() => {
 
 
             @media screen and (min-width: 768px) {
-              text-align: left;
-              width: size(200);
+              // text-align: left;
+              // width: size(210);
               height: size(55);
               margin-top: size(10);
             }

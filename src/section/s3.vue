@@ -108,7 +108,7 @@ onBeforeUnmount(() => {
             }">
               <SplideSlide class="slide">
                 <div class="slide_item">
-                  <div class="item_pic"><img src="@/section/s3/l_pic01.webp" alt="pic">
+                  <div class="item_pic"><img src="@/section/s3/l_pic01.jpg" alt="pic">
                     <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
                   </div>
 
@@ -116,7 +116,7 @@ onBeforeUnmount(() => {
               </SplideSlide>
               <SplideSlide class="slide">
                 <div class="slide_item">
-                  <div class="item_pic"><img src="@/section/s3/l_pic02.webp" alt="pic">
+                  <div class="item_pic"><img src="@/section/s3/l_pic02.jpg" alt="pic">
                     <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
                   </div>
 
@@ -124,8 +124,29 @@ onBeforeUnmount(() => {
               </SplideSlide>
               <SplideSlide class="slide">
                 <div class="slide_item">
-                  <div class="item_pic"><img src="@/section/s3/l_pic03.webp" alt="pic">
-                    <span class="font-['Noto_Sans_TC'] text-[#fff]">雙子星3D透視圖</span>
+                  <div class="item_pic"><img src="@/section/s3/l_pic03.jpg" alt="pic">
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">中華郵政塔3D透視參考圖</span>
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide class="slide">
+                <div class="slide_item">
+                  <div class="item_pic"><img src="@/section/s3/l_pic06.jpg" alt="pic">
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">明日台北珵3D透視參考圖</span>
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide class="slide">
+                <div class="slide_item">
+                  <div class="item_pic"><img src="@/section/s3/l_pic07.jpg" alt="pic">
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">市議會舊址3D透視參考圖</span>
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide class="slide">
+                <div class="slide_item">
+                  <div class="item_pic"><img src="@/section/s3/l_pic08.jpg" alt="pic">
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">皇翔台汽北站3D透視參考圖</span>
                   </div>
                 </div>
               </SplideSlide>
