@@ -226,7 +226,7 @@ onBeforeUnmount(() => {
         </SplideSlide>
       </Splide>
 
-      <div class="line" ref="line">
+      <div class="line" >
         <div class="splide_btn prev" @click="goPrev3">
           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none">
             <path d="M8 1L1 7.81081L8 15" stroke="#DCA435" stroke-linecap="round" />
@@ -529,7 +529,7 @@ onBeforeUnmount(() => {
       background: linear-gradient(90deg, rgba(220, 164, 53, 0.00) 0%, #DCA435 15.5%, #DCA435 85%, rgba(220, 164, 53, 0.00) 100%);
       z-index: 1;
       height: size-m(1);
-      bottom: size-m(92.5);
+      bottom: size-m(135);
 
       @media screen and (min-width: 768px) {
         height: size(1);
