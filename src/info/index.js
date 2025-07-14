@@ -6,7 +6,7 @@ export default {
         keywords: caseName,
     },
     caseid: "45df4117-2e6e-4922-a514-1ac66476f978",
-    case_code: "tongyuan",
+    //case_code: "tongyuan",
     address1: "接待中心",//按鈕區的--- 如空白會只呈現地址
     address2: "接待中心",//map點下確認的--- 如空白會顯示"導航地址"
     address: "三重區光陽街78號",
